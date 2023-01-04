@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "272285717607",
+    "project_id": "mobecom-906ef",
+    "storage_bucket": "mobecom-906ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272285717607:android:06735cba0ad4a8cb0970c2",
+        "android_client_info": {
+          "package_name": "com.example.mobecom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272285717607-ok67adv3n8nbf3g2dgo03qrhmjget5mg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqnv7f8m41eWLz7wTlob9tkDU0k6Ex1mQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272285717607-ok67adv3n8nbf3g2dgo03qrhmjget5mg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
