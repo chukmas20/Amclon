@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mobecom/screens/results_screen.dart';
 import 'package:mobecom/screens/search_screen.dart';
 import 'package:mobecom/utils/color__themes.dart';
 import 'package:mobecom/utils/constants.dart';
@@ -53,6 +54,14 @@ class SearchBarWidget extends StatelessWidget with PreferredSizeWidget {
                       ],
                   ),
                   child: TextField(
+                    onSubmitted: (String query){
+                       Navigator.push(
+                           context,
+                           MaterialPageRoute(
+                               builder: (context)=> ResultScreen(query: query),
+                           ),
+                       );
+                    },
                     readOnly: isReadOnly,
                     onTap: (){
                        if(isReadOnly){
